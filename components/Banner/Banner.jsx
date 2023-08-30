@@ -8,7 +8,7 @@ const Banner = () => {
       <Image
         src={assets.banner}
         alt="banner"
-        className="w-full h-screen bg-cover bg-center"
+        className="w-full h-screen object-cover object-center"
       />
 
       <div className="absolute mt-20 top-0 right-0 bottom-0 left-0 flex justify-center items-center text-white flex-col space-y-10">
