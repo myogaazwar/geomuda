@@ -1,5 +1,5 @@
 // ** Import Assets
-import { navItems } from "@/constanst/navItems";
+import { IniNav } from "@/constanst/navItems";
 
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <h1 className="text-3xl font-bold cursor-not-allowed">Logo</h1>
 
       <div className="flex gap-5">
-        {navItems.map((item) => (
+        {IniNav.map((item) => (
           <div className="border cursor-pointer border-white px-4 py-2 rounded-xl">
             {item.name}
           </div>

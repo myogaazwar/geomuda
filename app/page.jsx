@@ -1,5 +1,6 @@
 // ** Import Components
 import Banner from "@/components/Banner/Banner";
+import About from "@/components/about/About";
 import Navbar from "@/components/navbar/Navbar";
 
 const LandingPage = () => {
@@ -9,6 +10,8 @@ const LandingPage = () => {
         <Navbar />
 
         <Banner />
+
+        <About />
       </div>
     </main>
   );
