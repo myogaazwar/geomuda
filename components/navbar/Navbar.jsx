@@ -23,11 +23,11 @@ const Navbar = () => {
     <nav
       className={`flex fixed top-0 w-full text-white items-center justify-between py-8 px-32 ${
         scroll > 0
-          ? "bg-green-600 z-50 transition duration-700"
-          : "bg-transparent"
+          ? "bg-green-600 z-50 transition duration-1000"
+          : "bg-transparent duration-500"
       }`}
     >
-      <h1 className="text-3xl font-bold cursor-not-allowed">Logo</h1>
+      <h1 className="text-3xl font-bold">Logo</h1>
 
       <div className="flex gap-5">
         {navItems.map((item, index) => (
