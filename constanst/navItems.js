@@ -1,4 +1,4 @@
-export const IniNav = [
+export const navItems = [
   { name: "Home" },
   { name: "About Us" },
   { name: "Activity" },
